@@ -1,3 +1,13 @@
+# GaiaNet BetaLaunch
+Claim your GAIA Profile Verified Role \
+https://www.gaianet.ai \
+-Connect Metamask wallet \
+-Go to profil \
+-Bind email,twitter,discord & telegram \
+-Complete task galxe 
+
+
+
 ## RUN NODE
 
 
