@@ -54,7 +54,7 @@ ctrl a+d
 ```
 Masuk Screen Node Gaia
 ```
-screen -S gaia
+screen -r Gaianet
 ```
 
 # Verif Node
@@ -108,7 +108,7 @@ ctrl  a+d
 ```
 Masuk Screen
 ```
-screen -S gaia
+screen -r gaia
 ```
 
 Done
