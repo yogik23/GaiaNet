@@ -41,12 +41,21 @@ nano gaianet/nodeid.json
 Keluar Screen
 ```
 ctrl a+d
-
+```
 Masuk Screen Node Gaia
 ```
 screen -S gaia
 ```
 
+# Verif Node
+https://www.gaianet.ai/node \
+-Click Add Node \
+-Submit Node ID \
+-Device ID \
+-Check node status \
+-Join The Network Of GaiaNet \
+-interaction with bot \
+-Claim your Early Node Verified Role https://app.galxe.com/quest/Gaianet/GCMz9tgKnG \
 
 ## Bot Auto Chat
 
