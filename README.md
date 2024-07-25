@@ -1,5 +1,14 @@
 ## RUN NODE
 
+
+Install Scren
+```
+sudo apt install screen
+```
+Buat Screnn Node Gaianet
+```
+screen -Rd Gaianet
+```
 Install default node software
 ```
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
@@ -31,11 +40,7 @@ nano gaianet/nodeid.json
 
 ## Bot Auto Chat
 
-Install Scren
-```
-sudo apt install screen
-```
-Masuk ke Screnn
+Buat Screnn
 ```
 screen -Rd gaia
 ```
