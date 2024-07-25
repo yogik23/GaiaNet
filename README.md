@@ -4,7 +4,8 @@ https://www.gaianet.ai \
 -Connect Metamask wallet \
 -Go to profil \
 -Bind email,twitter,discord & telegram \
--Complete task galxe 
+-Claim Role galxe \
+https://app.galxe.com/quest/Gaianet/GCML9tgKrT
 
 
 
@@ -17,7 +18,7 @@ sudo apt install screen
 ```
 Buat Screnn Node Gaianet
 ```
-screen -Rd Gaianet
+screen -Rd gaianet
 ```
 Install default node software
 ```
@@ -54,7 +55,7 @@ ctrl a+d
 ```
 Masuk Screen Node Gaia
 ```
-screen -r Gaianet
+screen -r gaianet
 ```
 
 # Verif Node
@@ -65,7 +66,8 @@ https://www.gaianet.ai/node \
 -Check node status \
 -Join The Network Of GaiaNet \
 -interaction with bot \
--Claim your Early Node Verified Role https://app.galxe.com/quest/Gaianet/GCMz9tgKnG \
+-Claim your Early Node Verified Role \
+https://app.galxe.com/quest/Gaianet/GCMz9tgKnG 
 
 ## Bot Auto Chat
 
