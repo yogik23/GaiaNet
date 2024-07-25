@@ -85,9 +85,13 @@ Masuk ke Folder Gaian
 ```
 cd gaian
 ```
-Buat File nano & edit NodeIdGaiaMu ke Node ID kalian
+Buka File nano & edit NodeIdGaiaMu ke Node ID kalian
 ```
 nano gaian.js
+```
+Save File
+```
+ctrl x y
 ```
 Install
 ```
