@@ -38,6 +38,16 @@ Cek addres,keystore,pasparse ( simpan )
 nano gaianet/nodeid.json
 ```
 
+Keluar Screen
+```
+ctrl a+d
+
+Masuk Screen Node Gaia
+```
+screen -S gaia
+```
+
+
 ## Bot Auto Chat
 
 Buat Screnn
@@ -71,7 +81,7 @@ node gaian.js
 
 Keluar dari screen
 ```
-ctrl + a + d
+ctrl  a+d
 ```
 Masuk Screen
 ```
