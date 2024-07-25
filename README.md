@@ -79,13 +79,13 @@ apt install npm
 ```
 Clone Repo
 ```
-git clone https://github.com/yogik23/GaiaNet-bot
+git clone https://github.com/iyogz/gaian
 ```
 Masuk ke Folder Gaian
 ```
 cd gaian
 ```
-Buat File nano & edit UbahNodeID ke Node ID kalian
+Buat File nano & edit NodeIdGaiaMu ke Node ID kalian
 ```
 nano gaian.js
 ```
