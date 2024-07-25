@@ -79,7 +79,7 @@ apt install npm
 ```
 Clone Repo
 ```
-https://github.com/yogik23/GaiaNet-bot
+git clone https://github.com/yogik23/GaiaNet-bot
 ```
 Masuk ke Folder Gaian
 ```
