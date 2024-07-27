@@ -100,6 +100,6 @@ node gaian.js
 * Keluar dari sesi tmux ```ctrl-b + d``` 
 * Masuk sesi tmux
 ```
-tmux attach-session -t blum
+tmux attach-session -t gaianet
 ```
 Done
