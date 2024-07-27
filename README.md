@@ -78,7 +78,7 @@ git clone https://github.com/yogik23/Gaianet
 ```
 * Masuk ke Folder Gaian
 ```
-cd gaian
+cd gaianet
 ```
 * Buka File nano & edit NodeIdGaiaMu ke Node ID kalian
 ```
