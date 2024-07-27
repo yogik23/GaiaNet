@@ -12,51 +12,38 @@ https://app.galxe.com/quest/Gaianet/GCML9tgKrT
 ## RUN NODE
 
 
-Install Scren
-```
-sudo apt install screen
-```
-Buat Screnn Node Gaianet
-```
-screen -Rd gaianet
-```
-Install default node software
+
+* Install default node software
 ```
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
 ```
-copy perintah
-```
-source...../.bashrc
-```
-Inisialisasi node
+* Salin & jalankan perintah yg muncul diterminal, perintah dimulai dari ```source.``` sampai ```bashr```
+
+* Inisialisasi node
 ```
 gaianet init
 ```
-Start Node
+* Start Node
 ```
 gaianet start
 ```
-Buka Link yg muncul terminal anda, contoh 
-```
-... ... https://0xf63939431ee11267f4855a166e11cc44d24960c0.us.gaianet.network
-```
-Cek Node id
+* Buka Link yg muncul terminal anda, contoh \
+```... ... https://0xf63939431ee11267f4855a166e11cc44d24960c0.us.gaianet.network``` 
+
+* Cek Node id
 ```
 gaianet info
 ```
-Cek addres,keystore,pasparse ( simpan )
+* Cek addres,keystore,pasparse ( simpan )
 ```
 nano gaianet/nodeid.json
 ```
+* Perintah stop Node
+```
+gaianet stop
+```
 
-Keluar Screen
-```
-ctrl a+d
-```
-Masuk Screen Node Gaia
-```
-screen -r gaianet
-```
+
 
 # Verif Node
 https://www.gaianet.ai/node \
@@ -69,48 +56,50 @@ https://www.gaianet.ai/node \
 -Claim your Early Node Verified Role \
 https://app.galxe.com/quest/Gaianet/GCMz9tgKnG 
 
-## Bot Auto Chat
 
-Buat Screnn
+
+## Bot Auto Chat gunakan vps yg berbeda
+
+* Install Tmux 
 ```
-screen -Rd gaia
+apt install tmux
 ```
-Install Npm
+* Buat Sesi baru gaianet
+```
+tmux new-session -s gaianet
+```
+* Install Npm
 ```
 apt install npm
 ```
-Clone Repo
+* Clone Repo
 ```
 git clone https://github.com/iyogz/gaian
 ```
-Masuk ke Folder Gaian
+* Masuk ke Folder Gaian
 ```
 cd gaian
 ```
-Buka File nano & edit NodeIdGaiaMu ke Node ID kalian
+* Buka File nano & edit NodeIdGaiaMu ke Node ID kalian
 ```
 nano gaian.js
 ```
-Save File
+* Save File
 ```
 ctrl x y
 ```
-Install
+* Install
 ```
 npm i
 ```
-Jalankan bot
+* Jalankan bot
 ```
 node gaian.js
 ```
 
-Keluar dari screen
+* Keluar dari sesi tmux ```ctrl-b + d``` 
+* Masuk sesi tmux
 ```
-ctrl  a+d
+tmux attach-session -t blum
 ```
-Masuk Screen
-```
-screen -r gaia
-```
-
 Done
