@@ -74,7 +74,7 @@ apt install npm
 ```
 * Clone Repo
 ```
-git clone https://github.com/iyogz/gaian
+git clone https://github.com/yogik23/Gaianet
 ```
 * Masuk ke Folder Gaian
 ```
