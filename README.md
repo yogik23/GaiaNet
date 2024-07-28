@@ -17,8 +17,10 @@ https://app.galxe.com/quest/Gaianet/GCML9tgKrT
 ```
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
 ```
-* Salin & jalankan perintah yg muncul diterminal, perintah dimulai dari ```source.``` sampai ```bashr```
-
+* Buat CLI gaianet tersedia di shell
+```
+source /root/.bashrc atau source /administrator/.bashrc
+```
 * Inisialisasi node
 ```
 gaianet init
@@ -78,7 +80,7 @@ git clone https://github.com/gilkur23/gaia
 ```
 * Masuk ke Folder Gaian
 ```
-cd gaianet
+cd gaia
 ```
 * Buka File nano & edit NodeIdGaiaMu ke Node ID kalian
 ```
