@@ -76,11 +76,11 @@ apt install npm
 ```
 * Clone Repo
 ```
-git clone https://github.com/gilkur23/gaia
+git clone git clone https://github.com/yogik23/gaian
 ```
 * Masuk ke Folder Gaian
 ```
-cd gaia
+cd gaian
 ```
 * Buka File nano & edit NodeIdGaiaMu ke Node ID kalian
 ```
